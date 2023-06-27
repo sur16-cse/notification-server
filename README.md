@@ -3,6 +3,8 @@
 - register token on firebase
 - duplicate token detected 
 - send  push notification messages to multiple devices
+- updateToken status with timestamp 
+- send push notification to only those user which is active
 
 # package used 
 - express
