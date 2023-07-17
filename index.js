@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyparser = require("body-parser");
 const {register,update,push}=require("./router/router.js");
+const data = require("./.well-known/assetlinks.json")
 
 
 
@@ -15,7 +16,7 @@ const tokens = [];
 // app.use(update)
 // app.use(push)
 
-
+// app.get("./well-known/assetlinks.json",data)
 
 app.listen(port, () => {
   console.log("Listening on port " + port);
