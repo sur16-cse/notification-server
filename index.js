@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyparser = require("body-parser");
-const {register,update,push}=require("./router/router.js");
+// const {register,update,push}=require("./router/router.js");
 const data = require("./.well-known/assetlinks.json")
 
 
