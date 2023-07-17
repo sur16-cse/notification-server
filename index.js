@@ -16,7 +16,7 @@ const tokens = [];
 // app.use(update)
 // app.use(push)
 
-app.get("./well-known/assetlinks.json",(request,response)=>{
+app.get(".well-known/assetlinks.json",(request,response)=>{
   response.setHeader('content-type','application/json')
   response.json(data)
 })
