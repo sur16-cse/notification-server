@@ -11,9 +11,11 @@ const port = 3000;
 
 const tokens = [];
 
-app.use(register)
-app.use(update)
-app.use(push)
+// app.use(register)
+// app.use(update)
+// app.use(push)
+
+
 
 app.listen(port, () => {
   console.log("Listening on port " + port);
